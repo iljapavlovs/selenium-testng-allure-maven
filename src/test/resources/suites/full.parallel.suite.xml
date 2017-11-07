@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="full"
+       verbose="1"
+       time-out="180000">
+    <suite-files>
+        <suite-file path="smoke.parallel.suite.xml"/>
+    </suite-files>
+</suite>
+
